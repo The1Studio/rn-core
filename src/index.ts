@@ -1,12 +1,11 @@
 // @repo/core - Pure Logic Package
 
-// Utils
-export * from './utils/format';
-export * from './utils/validation';
+// Direct exports (for convenience)
+export * from "./hooks";
+export * from "./utils";
+export * from "./constants";
 
-// Hooks
-export * from './hooks/useToggle';
-export * from './hooks/useCounter';
-
-// Constants
-export * from './constants/colors';
+// Namespaced exports (for organization)
+export * as Hooks from "./hooks";
+export * as Utils from "./utils";
+export * as Constants from "./constants";
