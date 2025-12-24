@@ -1,1 +1,5 @@
-export { secureStorage, SecureStore, zustandSecureStorage } from './secureStorage';
+export {
+  secureStorage,
+  SecureStore,
+  zustandSecureStorage,
+} from './secureStorage';
