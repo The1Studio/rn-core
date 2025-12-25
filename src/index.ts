@@ -5,6 +5,7 @@ export * from './hooks';
 export * from './utils';
 export * from './constants';
 export * from './storage';
+export * from './path';
 
 // Namespaced exports (for organization)
 export * as Hooks from './hooks';
