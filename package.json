@@ -8,8 +8,8 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "react": "*",
     "expo-secure-store": "*",
+    "react": "*",
     "zustand": "*"
   },
   "devDependencies": {
@@ -17,5 +17,8 @@
     "expo-secure-store": "~15.0.2",
     "typescript": "^5.3.0",
     "zustand": "^5.0.9"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
   }
 }
